@@ -26,8 +26,6 @@ debug_message = "This is a debug message"
 sample_variable = "Hello, world!"
 
 parol="1939njfjslxnbn2"
-AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
-AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 passs = "jifjoisjef0909023rr"
 
 "-----BEGIN DSA PRIVATE KEY-----"
