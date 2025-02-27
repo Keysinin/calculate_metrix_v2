@@ -24,3 +24,5 @@ test_data = {
                                     'aws_access_key_id': 'AKIAGNGF92D2K9UF7NOG',
                                     'aws_secret_access_key': 'NNN7D73638HFU76X0KV8JKS21KIGHCYJEI98WGGG'}
                             }
+
+aws_secret_access_key = 'JI88JHDB76SMKO01GH7ZMIUG612KMUGT6JUAV682'
