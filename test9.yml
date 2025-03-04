@@ -1,0 +1,98 @@
+# =======================
+# 🔑 API Keys & Secrets
+# =======================
+api_keys:
+  facebook:
+    app_id: "123456789012345"
+    app_secret: "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6"
+  twitter:
+    consumer_key: "A7mX@#tP!qJ$8Q9zV&*2LwYC(MF5D"
+    consumer_secret: "fjX9pQNM5LZV8D2BYKRYXCM3H5TX"
+  telegram:
+    bot_token: "1234567890:ABCDEF1234567890abcdef1234567890"
+  discord:
+    bot_token: "mfa.ABC123def456GHIjkl789mnoPQRstuVWXyz"
+  github:
+    access_token: "ghp_ABC123def456GHIjkl789mnoPQRstuVWXyz"
+  linkedin:
+    client_id: "77y62tthnmd2n1"
+    client_secret: "rFJnMBKXRLUOqPav"
+
+# =======================
+# ☁️ Cloud Service Keys
+# =======================
+cloud:
+  aws:
+    access_key_id: "AKIA837F92D2K9UF7U2N"
+    secret_access_key: "9IJ7D73638HFU76X0KV8JKS21KIGHCYJEI98WNOG"
+  azure:
+    client_secret: "WmLZVD2B8KRYXCM3H5TXPQN9J"
+  google_cloud:
+    access_token: "AIzaSyD5vXN8j82UnxP2n7hacl0N5hZb9yamki"
+  digitalocean:
+    api_key: "dop_v1_ABC123def456GHIjkl789mnoPQRstuVWXyz"
+
+# =======================
+# 🛡️ Authentication & OAuth
+# =======================
+authentication:
+  jwt_secret: "fjX9pQNM5LZV8D2BYKRYXCM3H5TX"
+  oauth_access_token: "gho_ABC123def456GHIjkl789mnoPQRstuVWXyz"
+  session_secret: "mX9pQ7JZVL2WKC3YF5T&D@#Y*MF"
+
+# =======================
+# 🔒 Database Credentials
+# =======================
+database:
+  mysql:
+    url: "mysql://admin:fjX9pQNM5LZV8D2BYKRYXCM3H5TX@db.example.com:3306/mydb"
+  postgres:
+    url: "postgres://user:mK7pQJz8X9vT2LwYCMF5D3BVKRYXN@165.124.21.65:5432/dbname"
+  mongodb:
+    connection_string: "mongodb://user:password@localhost:27017/mydatabase"
+  redis:
+    password: "SuperSecureRedisPassword"
+
+# =======================
+# 📧 Email & SMTP Config
+# =======================
+email:
+  smtp:
+    host: "smtp.mailgun.org"
+    port: 587
+    username: "admin@example.com"
+    password: "SuperSecureEmailPassword"
+
+# =======================
+# 🔐 SSH & Private Keys
+# =======================
+ssh_keys:
+  rsa_private_key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEA7yjFqJHZz/XDiy897gtfdrdhgdzgdHHji87S5gAkv@asXJF028RUF0Fj0u08u0ruujt0rihgoiwergyg92485thoNOHW9R8HJ2ORINoh9hOHIVHWOIFHh
+    -----END RSA PRIVATE KEY-----
+  pgp_private_key: |
+    -----BEGIN PGP PRIVATE KEY BLOCK-----
+    JFO240TJT2M958GJTJG98I4JGMIJF9G824HJ59G82J495T824H0GOI2H4T98GHJ4N98IHTJN9185FNC985OIU6YJ0G86IUJY0IHF7813TGF7623TYTH9846HGNV5N9YUT982YH5F924HG94
+    -----END PGP PRIVATE KEY BLOCK-----
+  tls_certificate: |
+    -----BEGIN CERTIFICATE-----
+    MIIDXTCCAkWgAwIBAJr9093jfyffytr373jfNfkFH71NfiODqukfjoU
+    -----END CERTIFICATE-----
+
+# =======================
+# 🔒 System Configuration & Secrets
+# =======================
+system:
+  secret_key: "JnXB7WQ9pT2LCMYFKD5VZMLXRJ8"
+  app_secret: "LKZMPB7XWYJH9TQCMF5VYXD2LJW"
+  secure_token: "x7mP9QJZ8LTCWKMVFYD52BX3Y"
+
+# =======================
+# 📊 Analytics & Tracking
+# =======================
+analytics:
+  google_analytics:
+    tracking_id: "UA-12345678-1"
+  mixpanel:
+    api_key: "mX9pQ7JZVL2WKC3YF5T&D@#Y*MF"
